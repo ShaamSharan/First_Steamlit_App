@@ -1,2 +1,2 @@
-Import Streamlit
-Streamlit.title('Hi my 1st Python program')
+Import Steamlit
+Steamlit.title('Hi my 1st Python program')
