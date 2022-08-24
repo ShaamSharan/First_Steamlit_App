@@ -16,3 +16,8 @@ streamlit.text('🥣 🐔 🍞Hi my 1st Python program Text1')
 
 streamlit.text('🥗Hi my 1st Python program Text2')
 streamlit.text('🥑Hi my 1st Python program Text3')
+
+
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
